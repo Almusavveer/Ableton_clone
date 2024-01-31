@@ -1,0 +1,514 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: "Futura PT Light";
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.h_center{
+    align-items: center;
+}
+
+.v_center{
+    justify-content: center;
+}
+
+.cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Navigation Bar */
+.nav-conatiner{
+    width: 100%;
+    height: 68px;
+    background-color: white;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(237, 236, 236);
+}
+
+/* Logo */
+.logo{
+    width: 10%;
+}
+.img{
+    width: 60px;
+    height: 28px;
+    background-image: url("res/vector.svg");
+}
+
+/* Links */
+.menu{
+    height: 28px;
+    width: 92%;
+}
+
+.menu a{
+    font-size: 1.15em;
+    padding: 0px 10px;
+    /* font-weight: 600; */
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.or{
+    color: #FD5948;
+}
+ul{
+    list-style: none;
+}
+
+li:nth-child(9){
+    margin-left: 37%;
+}
+.menu ul li:last-child{
+    font-size: 0.8em;
+    align-self: center;
+}
+@media(max-width: 800px){
+    .marg{
+        margin-left: 1rem;
+    }
+}
+
+.blue{
+    color: #0000ff;
+    
+}
+/* Paneel */
+.pannel-container{
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    /* margin-bottom: 3%; */
+}
+
+.pannel{
+    margin-right: 80%;
+    padding: 20px 40px;
+}
+.pannel li{
+    width: 50%;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+/* main */
+/* image */
+
+.marg_b{
+    margin-bottom: 7%;
+}
+.img-container{
+    width: 100%;
+    height: 700px;
+    /* background-color: #b6ffc0; */
+}
+
+.img1{
+    width: 82%;
+    height: 100%;
+    background-image: url("./res/header2.jpg");
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+}
+
+.brand-name{
+  width: 30%;
+  height: 20%;
+  background-image: url("./res/first_name.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+/* Data */
+.content{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+}
+
+.first_data{
+    width: 50%;
+    height: 70%;
+    /* font-family: "Futura PT Medium"; */
+    font-size: 1.8rem;
+    /* margin: 0 20%; */
+    line-height: 40px;
+    margin-bottom: 2%;
+    font-weight: 900;
+}
+
+
+.second_data{
+    width: 50%;
+    height: 30%;
+    font-size: 1.13rem;
+    margin: 0 20%;
+    line-height: 30px;
+    font-weight: 600;
+    /* background-color: #b1c5ff; */
+}
+
+.marg_p{
+    margin-bottom: 3%;
+}
+
+.disp_img{
+    height: 900px;
+    width: 100%; 
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.box{
+    width: 870px;
+    height: 870px;
+    position: relative;
+    background-color: #fbffa7;
+    z-index: 1;
+}
+
+.img_box{
+    height: 50%;
+    width: 60%;
+    /* background-color: #ff746d; */
+    position: relative;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url("./res/photo-2.jpg");
+}
+
+.box1{
+    width: 40%;
+    height: 70%;
+    background-image: url("./res/photo-1.jpg");
+    position: relative;
+    z-index: 3;
+    top: 15%;
+    left: 5%;
+    background-position: center;
+}
+
+.poster{
+    width: 100%;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+
+.poster_img{
+    width: 50%;
+    height: 95%;
+    background-image: url("./res/poster-juanpe.jpg");
+    margin-bottom: .5%;
+}
+
+.play{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0000ff;
+}
+
+.p_icon{
+    width: 70%;
+    height: 70%;
+    /* background-color: #fbffa7; */
+    position: relative;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-image: url("./res/play.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.poster_img:hover{
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 3%;
+    width: 55%;
+    height: 5%;
+    font-size: .9rem;
+}
+
+.img_center{
+    width: 100%;
+    height: 100vh;
+}
+
+.poster_meet{
+    width: 80%;
+    height: 90%;
+    background-image: url("./res/poster-meet-the-makers.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.poster2{
+    width: 100%;
+    height: 150vh;
+}
+
+.photos{
+    height: 100%;
+    width: 60%;
+    background-color: #b6ffc0;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.first_img{
+    position: relative;
+    top: 10%;
+    left: 15%;
+    margin-bottom: 12%;
+    width: 60%;
+    height: 35%;
+    
+}
+
+.second_img{
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 60%;
+    height: 35%;
+}
+
+.photo_2{
+    width: 40%;
+    height: 55%;
+    position: relative;
+    background-image: url("./res/photo-5.jpg");
+    /* background-color: #d5b3ff */
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    right: 6%;
+}
+
+.poster3{
+    width: 100%;
+    height: 115vh;
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    width: 71%;
+    height: 100%;
+    /* height: 100%; */
+    background-color: #d5b3ff;
+    /* position: relative; */
+    z-index: 1;
+}
+
+.sec{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    justify-content: flex-end;
+    /* top: 5%; */
+    /* background-color: #fbffa7; */
+}
+
+.sec1{
+    width: 35%;
+    height: 50%;
+    position: relative;
+    top: 10%;
+    right: 17%;
+    background-image: url("./res/photo-6-a.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.sec2{
+    width: 40%;
+    height: 82%;
+    position: relative;
+    top: 8%;
+    background-image: url("./res/photo-7.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.disp_img1{
+    width: 100%;
+    height: 78vh;
+}
+
+.background1{
+    height: 100%;
+    width: 80%;
+    background-color: #b1c5ff;
+}
+
+.back_img{
+    width: 100%;
+    height: 100%;
+    background-image: url("./res/photo-8.jpg");
+    background-blend-mode: normal;
+    background-size: 100%;
+}
+
+.data{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+
+.data p{
+    width: 60%;
+    height: 40%;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    position: relative;
+    /* top: -5%; */
+}
+
+.data a{
+    display: block;
+    margin-top: 5%;
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    /* position: relative;
+    z-index: 3; */
+    border-top: 2px solid rgb(237, 236, 236);
+}
+.foot_container{
+    width: 85%;
+    height: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: #b6ffc0; */
+    margin-top: 7%;
+}
+.foot_logo{
+   width: 15%;
+   height: 6vh;
+   background-image: url("./res/logo.svg");
+   background-repeat: no-repeat;
+   /* margin: 5% 0; */
+   /* background-color: #b1c5ff; */
+}
+
+.foot_data{
+    width: 100%;
+    height: 15vh;
+    font-size: 20px;
+    line-height: 1.8;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.foot_data > ul > input{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(237, 236, 236);
+    color: gray;
+    width: 65%;
+    height: 35%;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 900;
+}
+
+.head{
+    font-weight: 800;
+}
+.foot_data > ul > Button{
+    font-size: 20px;
+    border: none;
+    background-color: #0000ff;
+    color: white;
+    width: 25%;
+    height: 35%;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.cont_div{
+    width: 120%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    /* background-color: #b6ffc0; */
+}
+
+.feb{
+    width: 20%;
+    height: 100%;
+    background-image: url("./res/vector7.svg");
+    background-size: 100%;
+    background-color: #3477f2;
+    background-position: center;
+}
+
+.twi{
+    width: 20%;
+    height: 100%;
+    background-image: url("./res/vector5.svg");
+    background-size: 100%;
+    background-color: #128ffd;
+    background-position: center;
+}
+
+.you{
+    width: 20%;
+    height: 100%;
+    background-image: url("./res/vector6.svg");
+    background-size: 100%;
+    background-color: #ff001d;
+    background-position: center;
+}
+
+.insta{
+    width: 20%;
+    height: 100%;
+    background-image: url("./res/vector4.svg");
+    background-size: 100%;
+    background-color: rgb(255, 148, 81);
+    background-position: center;
+}
